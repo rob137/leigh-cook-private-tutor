@@ -7,8 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<title>Leigh Cook Private Tutoring</title>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB52YtB2b8RlRzmjTENxb284CgYlJ5gbyI"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="index.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="centralContainer">
@@ -56,19 +56,19 @@
 				</header>
 				<section class="testimonials-section">
 					<div class='js-testimonial'>
-						<p class="js-testimonial-text testimonial-text-hide">"My son worked with Leigh for 5 months prior to taking his GCSE English. After just one session his confidence greatly improved and after a few more lessons I noticed a huge improvement in his understanding of the subject and quality of his work. I am so grateful that Leigh agreed to work with him as she has had a massive impact and has given him all the tools and strategies necessary to sit his exams knowing he could achieve good results. Ben thoroughly enjoyed working with Leigh and her patience and positive attitude has made him believe in himself. I would highly recommend Leigh to any parent with concerns regarding their child’s attainment." - Theresa P</p>
+						<p class="js-testimonial-text testimonial-text testimonial-text-hide">"My son worked with Leigh for 5 months prior to taking his GCSE English. After just one session his confidence greatly improved and after a few more lessons I noticed a huge improvement in his understanding of the subject and quality of his work. I am so grateful that Leigh agreed to work with him as she has had a massive impact and has given him all the tools and strategies necessary to sit his exams knowing he could achieve good results. Ben thoroughly enjoyed working with Leigh and her patience and positive attitude has made him believe in himself. I would highly recommend Leigh to any parent with concerns regarding their child’s attainment." - Theresa P</p>
 						<p class="js-show-more show-more">Show rest of testimonial</p>
 					</div>
 					<div class='js-testimonial'>
-						<p class="js-testimonial-text testimonial-text-hide">"Leigh’s warmth and encouragement have done wonders for Callum’s confidence. She’s got a really good understanding of what makes him tick as well as what he needs help with so he enjoys his time with her and is motivated by the activities she does with him. The most important change I’ve noticed is in his attitude to learning which is so much more positive." - Ruth E</p>
+						<p class="js-testimonial-text testimonial-text testimonial-text-hide">"Leigh’s warmth and encouragement have done wonders for Callum’s confidence. She’s got a really good understanding of what makes him tick as well as what he needs help with so he enjoys his time with her and is motivated by the activities she does with him. The most important change I’ve noticed is in his attitude to learning which is so much more positive." - Ruth E</p>
 						<p class="js-show-more show-more">Show rest of testimonial</p>
 					</div>
 					<div class='js-testimonial'>
-						<p class="js-testimonial-text testimonial-text-hide">"My two daughters (6 and 11) have been tutored by Leigh for over a year now and it has made such a difference. When Emily needed an extra hour Leigh made sure she could do that. Emily’s confidence/knowledge has improved especially in completing homework and she is a lot happier in her school life. The girls are always happy to see Leigh as she makes learning fun. Leigh is part of the girls’ life now and I hope will be for a long time. I am so happy they have her. I would recommend Leigh." - Lucy T</p>
+						<p class="js-testimonial-text testimonial-text testimonial-text-hide">"My two daughters (6 and 11) have been tutored by Leigh for over a year now and it has made such a difference. When Emily needed an extra hour Leigh made sure she could do that. Emily’s confidence/knowledge has improved especially in completing homework and she is a lot happier in her school life. The girls are always happy to see Leigh as she makes learning fun. Leigh is part of the girls’ life now and I hope will be for a long time. I am so happy they have her. I would recommend Leigh." - Lucy T</p>
 						<p class="js-show-more show-more">Show rest of testimonial</p>
 					</div>
 					<div class='js-testimonial'>
-						<p class="js-testimonial-text testimonial-text-hide">"Leigh is very friendly and warm. Gabriel enjoyed his lessons Her lessons were planned appropriately and very much directed towards his ability. Leigh spent time assessing Gabriel's specific needs to enable her lessons to target his weaknesses.  Gabriel is growing in confidence at school as a result of Leigh's endeavours. Gabriel has enjoyed working with Leigh. She explains problems in a way he understands and gives him time to think about answers, always praising his efforts. I would highly recommend Leigh to anyone who is looking for a tutor." - Rachel M</p>
+						<p class="js-testimonial-text testimonial-text testimonial-text-hide">"Leigh is very friendly and warm. Gabriel enjoyed his lessons. Her lessons were planned appropriately and very much directed towards his ability. Leigh spent time assessing Gabriel's specific needs to enable her lessons to target his weaknesses. Gabriel is growing in confidence at school as a result of Leigh's endeavours. Gabriel has enjoyed working with Leigh. She explains problems in a way he understands and gives him time to think about answers, always praising his efforts. I would highly recommend Leigh to anyone who is looking for a tutor." - Rachel M</p>
 						<p class="js-show-more show-more">Show rest of testimonial</p>
 					</div>
 				</section>
@@ -77,12 +77,7 @@
 					<H2>Location</H2>
 				</header>
 				<section class="location">
-					<div class='map'><iframe
-						width="100%"
-						height="400"
-						frameborder="0" style="border:0"
-						src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD92-_7fxXcseYuzYLl3lTnHlj5QA3Wb0M&q=hellesdonmilllane&zoom=12" allowfullscreen>
-					</iframe> </div>
+					<div class="js-map map" id="map"></div>	
 					<p>I am based in Norwich and tutoring takes place from my own home.</p>
 				</section>
 			</div>
@@ -92,18 +87,16 @@
 				<ul>
 					<li>BA (Hons) Degree in Teaching and Learning</li>
 					<li>QTS (GTP)</li>
-					<li>Possess Current Enhanced DBS Certificate</li>
+					<li>Current Enhanced DBS Certificate</li>
 				</ul>
 				<h3>Vast experience</h3>
 				<ul>
-					<li>Over 20 years of teaching</li>
+					<li>Over 20 years of teaching experience</li>
+					<li>Leader in a repeatedly OUTSTANDING School</li>
 					<li>Private tuition and mainstream schools</li>
-					<li>Middle leader in a repeatedly OUTSTANDING School</li>
 					<li>Tutor and mentor for trainee teachers</li>
-				</ul>
-				<ul>
-					<li>Taught all ages and abilities with excellent results</li>
-					<li>Taught in a variety of situations including one-to one, classes and intensive revision</li>
+					<li>All ages and abilities taught with excellent results</li>
+					<li>Experienced in one-to-one tutorials, classes and intensive revision</li>
 					<li>Extensive experience with pupils who have SEN or find learning a challenge</li>
 					<li>Wide experience of teaching pupils for whom English is an additional language</li>
 					<li>Wealth of voluntary experience</li>
@@ -123,5 +116,8 @@
 		</footer>
 	</div>
 	<script type="text/javascript" src="index.js"></script>
+	<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwrO9kTCuS6Zimy4p4zCZMa-UUsgJ_7OU&libraries=visualization,places&callback=initMap">  
+		</script>
 </body>
 </html>
