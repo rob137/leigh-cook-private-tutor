@@ -116,6 +116,8 @@ a {
 	max-width: 90%;
 	height: auto;
 	width: auto;	
+  border: 1px solid black;
+  border-radius: 15px; 
 }
 
 .footer-owl {
