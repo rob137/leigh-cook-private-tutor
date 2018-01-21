@@ -18,7 +18,7 @@ body {
 }
 main {
 	background: #CEDBEC;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .contact-me {
@@ -46,11 +46,12 @@ h1 {
 	margin-bottom: 0;
 }
 
-.subheading {
-
+.central-container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1000px;
 }
-
-
 
 aside ul {
   padding: 0.2em;
