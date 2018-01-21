@@ -5,8 +5,8 @@ body {
 	background-color: #F2F2F2;
 }
 
-.topBar {
-	padding: 0% 5% 0% 5%;
+.top-bar {
+	padding: 0% 5% 15px 5%;
 	background-color: #F2F2F2;
 	max-height: 40vh;
 	border-top-right-radius: 5px;
