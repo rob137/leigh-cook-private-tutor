@@ -248,8 +248,9 @@ html {
   }
 
   .header-owl {
+    z-index: -1;
     top: 30px;
-    left: 40px;
+    left: 17px;
     height: 90px;
     border-radius: 15px;
     border: 1px #F8F8F8 solid; 
